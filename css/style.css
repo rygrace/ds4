@@ -1,0 +1,38 @@
+img{
+    width:45%;
+    border: solid 10px olive;
+    border-radius: 15px;
+    margin: 25px;
+    padding: 10px
+
+}
+
+h2{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    background: bisque;
+}
+
+li{
+    display: inline-block;
+    margin: 10px 0px 0px 0px;
+}
+
+.active {
+    border: solid 2px lightgreen;
+    padding: 2px;
+
+}
+
+.skip{
+    position: absolute;
+    left:-1000px;
+
+}
+
+.skip:focus{
+
+}
