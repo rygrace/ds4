@@ -1,8 +1,10 @@
 img{
     width:45%;
-    border: solid 10px olive;
-    border-radius: 15px;
-    margin: 25px;
+    /* border: solid 10px olive; */
+    border-top: solid 5px olive;
+    border-bottom: solid 5px olive;
+    /* border-radius: 15px; */
+    margin: 25px 0px;
     padding: 10px
 
 }
@@ -10,10 +12,12 @@ img{
 h2{
     font-size: 20px;
     font-weight: bold;
+    padding: 10px 0px 0px 0px;
 }
 
 body{
     background: bisque;
+    font-family: 'Raleway', sans-serif;
 }
 
 li{
@@ -34,5 +38,5 @@ li{
 }
 
 .skip:focus{
-
+left: 0px;
 }
