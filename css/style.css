@@ -1,21 +1,30 @@
 img{
     width:45%;
-    /* border: solid 10px olive; */
-    border-top: solid 5px olive;
-    border-bottom: solid 5px olive;
-    /* border-radius: 15px; */
+    border: solid 10px olive; 
+    border-radius: 15px;
     margin: 25px 0px;
     padding: 10px
 
 }
 
+div.history:nth-child(even) img
+{
+    border: solid 15px blue;
+
+}
+
+
+h1{
+    font-size:30px;
+}
+
 h2{
     font-size: 20px;
-    font-weight: bold;
+    font-weight: bol
     padding: 10px 0px 0px 0px;
 }
 
-body{
+body, dl{
     background: bisque;
     font-family: 'Raleway', sans-serif;
 }
@@ -39,4 +48,8 @@ li{
 
 .skip:focus{
 left: 0px;
+}
+
+dt { 
+    font-size: 20px;
 }
