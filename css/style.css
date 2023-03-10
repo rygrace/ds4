@@ -45,20 +45,25 @@ div:nth-child(even) img
 img:hover{
     background-color: aqua;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
     transition: width 2s, height 4s;
 }
 
 
 h1{
-    font-size:30px;
+    font-size: 50px;
     font-family: 'Raleway', sans-serif;
     
-    margin: 20px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
+    text-align: center;
+}
+
+p.femdict{
+    margin-top: 20px;
 }
 
 h2{
-    font-size: 20px;
+    font-size: 25px;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     padding: 40px 0px 0px 0px;
@@ -75,6 +80,7 @@ body, dl{
     background: bisque;
     font-family: 'Raleway', sans-serif;
     margin-left: 40px;
+    margin-right: 40px;
 }
 
 /* .body-femdict {
@@ -105,6 +111,7 @@ left: 0px;
 .femdict{
     text-align: center;
 }
+
 
 
 dl{
@@ -140,6 +147,31 @@ dl > div{
     margin-right: 40px;
 }
 
+.literature, .history{
+    margin: 40px 40px 40px 0;
+    padding: 15px;
+    background-color: rgb(202 205 175);
+    border-radius: 15px;
+}
+
+/* div.history > img{
+align-self: center;
+} */
+
+
+.literature-grid, .history-grid {
+    display: grid;
+}
+.literature > p {
+    margin-top: 20px;
+    margin-right: 40px;
+
+}
+
+.literature > h3 {
+    margin-top: 20px;
+}
+
 footer {
    color:darkgreen;
     margin-top: 100px;
@@ -152,6 +184,10 @@ footer a {
 
 footer > p{
     font-weight: 700;
+}
+
+.index-img{
+    width: 95%;
 }
 
 @media screen and (min-width: 800px){
@@ -175,6 +211,14 @@ dl > div {
 .femdict2{
     grid-column: 2/3;
 }
+
+.literature-grid, .history-grid{
+    grid-template-columns: 50% 50%;
+}
+
+
+
+
 
 
 
